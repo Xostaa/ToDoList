@@ -22,8 +22,8 @@ export default function Task({
     className: [classes.taskBox, classes.task],
   });
 
-  function completedTask(event: { target: HTMLInputElement; }) {
-    const target = event.target;
+  function completedTask(event: React.MouseEvent<HTMLInputElement>) {
+    const target = event.target as HTMLInputElement;
 
     if (target.checked == true) {
       setStates((prevState) => ({
