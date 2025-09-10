@@ -14,7 +14,7 @@ SCSS - for styling
 Vite - for fast development
 
 Installation
-Clone the repository:
+1. Clone the repository:
 ```bash
 https://github.com/Xostaa/ToDoList.git
 ```
