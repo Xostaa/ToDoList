@@ -1,0 +1,31 @@
+
+.inputWrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.addItem {
+    height: 2.5em;
+    color: gray;
+    background-color: #fff;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.icon {
+    margin-left: auto;
+    font-size: 16px;
+    color: #666;
+    height: 100%;
+    cursor: pointer;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(134, 61, 61);
+}
