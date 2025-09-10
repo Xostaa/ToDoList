@@ -1,19 +1,60 @@
 ToDo List Application
-Приложение для управления списком задач, созданное с использованием React и TypeScript.
+A task management application built using React and TypeScript.
 
-О проекте
-Это простое приложение для управления задачами, созданное с использованием современных технологий веб-разработки. Проект создан с помощью Vite и использует React для построения пользовательского интерфейса.
+About the Project
+This is a simple task management application created using modern web development technologies. The project was built with Vite and utilizes React for building the user interface.
 
-Технологии
-React - для построения пользовательского интерфейса
+Technologies
+React - for building the user interface
 
-TypeScript - для строгой типизации
+TypeScript - for strict typing
 
-SCSS - для стилизации
+SCSS - for styling
 
-Vite - для быстрой разработки
+Vite - for fast development
 
-Установка
-1. Клонируйте репозиторий:
+Installation
+Clone the repository:
+```bash
+https://github.com/Xostaa/ToDoList.git
+```
+2. Install dependencies:
+```bash
+npm install
+```
+Running
+Local Launch
+To start the project in development mode:
+```bash
+npm run dev
+```
+Building the Project
+To build the project for production:
+```bash
+npm run build
+```
+Scripts
+The following scripts are available in the project:
+
+```npm run dev``` - start in development mode
+
+```npm run build``` - build the project
+
+```npm run lint``` - check code against standards
+
+```npm run preview``` - preview the built project
+
+Project Structure
+```bash
+todolist/
+├── src/
+│   ├── components/    # React components
+│   ├── styles/        # SCSS styles
+│   ├── App.tsx        # Main component
+│   └── index.tsx      # Entry point
+├── .eslintrc.js       # ESLint configuration
+├── vite.config.ts     # Vite configuration
+└── package.json       # Project metadata
+```
 
 
