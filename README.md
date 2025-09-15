@@ -13,6 +13,8 @@ SCSS - for styling
 
 Vite - for fast development
 
+Vercel - is a cloud platform for deploying and hosting web applications with automatic setup, global CDN, and instant Git deployments.
+
 Installation
 1. Clone the repository:
 ```bash
@@ -56,5 +58,5 @@ todolist/
 ├── vite.config.ts     # Vite configuration
 └── package.json       # Project metadata
 ```
-
+Preview : https://to-do-list-pngy.vercel.app/
 
